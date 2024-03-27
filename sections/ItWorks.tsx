@@ -8,7 +8,7 @@ export interface Props {
 export default function Section({ name = "It Works!" }: Props) {
   return (
     <div class="flex h-96 items-center justify-center">
-      <p class="leading-10 text-6xl">{name}</p>
+      <p class="bg-green-200 leading-10 text-6xl">{name}</p>
     </div>
   );
 }
